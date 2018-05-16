@@ -70,10 +70,10 @@ void bfs(){
     }
     else{
       for(int i=1; i<=6; i++){        //#1~#6 
-        c2 = turn(c1, i);              //#i 
-        if(m[c2.colors] != 1){
-          m[c2.colors] = 1;          
-          qcube.push(c2);                
+        c2 = turn(c1, i);             //#i 
+        if(m[c2.colors] != 1){        
+          m[c2.colors] = 1;           //adds new cube to map if it's not there already
+          qcube.push(c2);             //pushes cube to queue to be checked   
         }
       }
     }
