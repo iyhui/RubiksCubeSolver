@@ -38,7 +38,7 @@ cube turn(cube x, int n){               //passing in temp cube c1 & faces
   return a;                         
 }
 
-
+//Piece I'm proud of
 
 int cnt = 0;                         
 int check(cube x){                        //checks if the cube is solved
